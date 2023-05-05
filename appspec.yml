@@ -4,7 +4,7 @@ files:
   - source: /app.wsgi
     destination: /var/www/sample-app
   - source: /
-    destination: /home/ec2-user/sample-app
+    destination: /home/ubuntu/sample-app
   - source: /conf/sample_app.conf
     destination: /etc/httpd/conf.d
 hooks:
